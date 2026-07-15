@@ -1,0 +1,33 @@
+{
+  "name": "MarBou",
+  "badgeLabel": "marbou92",
+  "signingKey": "b6e621b40ac65e148b4b1213523e30a4ebba336f62e7243cd2851e700a911285",
+  "contact": {
+    "website": "https://github.com/marbou92/MHExtensions"
+  },
+  "extensionList": {
+    "extensions": [
+      {
+        "name": "Comix",
+        "packageName": "eu.kanade.tachiyomi.extension.all.comix",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/marbou92/MHRepo/main/apk/tachiyomi-all.comix-v1.4.6.apk",
+          "iconUrl": "https://raw.githubusercontent.com/marbou92/MHRepo/main/icon/eu.kanade.tachiyomi.extension.all.comix.png",
+          "jarUrl": "https://raw.githubusercontent.com/marbou92/MHRepo/main/jar/tachiyomi-all.comix-v1.4.6.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "6",
+        "versionName": "1.4.6",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "5988840660094806119",
+            "name": "Comix",
+            "language": "all",
+            "homeUrl": "https://comix.to"
+          }
+        ]
+      }
+    ]
+  }
+}
