@@ -11,9 +11,9 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.all.comix",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/marbou92/MHRepo/main/apk/tachiyomi-all.comix-v1.4.14.apk",
-          "iconUrl": "https://raw.githubusercontent.com/marbou92/MHRepo/main/icon/eu.kanade.tachiyomi.extension.all.comix.png",
-          "jarUrl": "https://raw.githubusercontent.com/marbou92/MHRepo/main/jar/tachiyomi-all.comix-v1.4.14.jar"
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comix-v1.4.14.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/icon/eu.kanade.tachiyomi.extension.all.comix.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comix-v1.4.14.jar"
         },
         "extensionLib": "1.4",
         "versionCode": "14",
