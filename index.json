@@ -9,27 +9,6 @@
     "extensions": [
       {
         "name": "Comix",
-        "packageName": "eu.kanade.tachiyomi.extension.all.comix",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comix-v1.4.14.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/icon/eu.kanade.tachiyomi.extension.all.comix.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comix-v1.4.14.jar"
-        },
-        "extensionLib": "1.4",
-        "versionCode": "14",
-        "versionName": "1.4.14",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": [
-          {
-            "id": "5988840660094806119",
-            "name": "Comix",
-            "language": "all",
-            "homeUrl": "https://comix.to"
-          }
-        ]
-      },
-      {
-        "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.all.comixto",
         "resources": {
           "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.1.apk",
