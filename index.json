@@ -32,19 +32,19 @@
         "name": "ManhuaRMTL",
         "packageName": "eu.kanade.tachiyomi.extension.all.manhuarmtl",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.4.52.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.4.53.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/icon/eu.kanade.tachiyomi.extension.all.manhuarmtl.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.4.52.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.4.53.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "52",
-        "versionName": "1.4.52",
-        "contentWarning": "CONTENT_WARNING_SAFE",
+        "versionCode": "53",
+        "versionName": "1.4.53",
+        "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
-            "id": "8171970567501756585",
+            "id": "757900891974229726",
             "name": "ManhuaRMTL",
-            "language": "all",
+            "language": "en",
             "homeUrl": "https://manhuarmtl.com"
           }
         ]
