@@ -27,6 +27,27 @@
             "homeUrl": "https://comix.to"
           }
         ]
+      },
+      {
+        "name": "ManhuaRMTL",
+        "packageName": "eu.kanade.tachiyomi.extension.all.manhuarmtl",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.4.52.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/icon/eu.kanade.tachiyomi.extension.all.manhuarmtl.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.4.52.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "52",
+        "versionName": "1.4.52",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": "8171970567501756585",
+            "name": "ManhuaRMTL",
+            "language": "all",
+            "homeUrl": "https://manhuarmtl.com"
+          }
+        ]
       }
     ]
   }
