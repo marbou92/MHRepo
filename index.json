@@ -1,6 +1,10 @@
 {
   "name": "MHExtensions",
+  "badgeLabel": "MHE",
   "signingKey": "B6:E6:21:B4:0A:C6:5E:14:8B:4B:12:13:52:3E:30:A4:EB:BA:33:6F:62:E7:24:3C:D2:85:1E:70:0A:91:12:85",
+  "contact": {
+    "website": "https://github.com/marbou92/MHExtensions"
+  },
   "extensionList": {
     "extensions": [
       {
@@ -20,7 +24,8 @@
             "id": "5988840660094806119",
             "name": "Comix",
             "language": "all",
-            "homeUrl": "https://comix.to"
+            "homeUrl": "https://comix.to",
+            "mirrorUrls": []
           }
         ]
       },
@@ -41,7 +46,8 @@
             "id": "757900891974229726",
             "name": "ManhuaRMTL",
             "language": "en",
-            "homeUrl": "https://manhuarmtl.com"
+            "homeUrl": "https://manhuarmtl.com",
+            "mirrorUrls": []
           }
         ]
       }
