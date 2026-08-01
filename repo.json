@@ -3,6 +3,7 @@
   "index_v2": "https://raw.githubusercontent.com/marbou92/MHRepo/main/index.json",
   "meta": {
     "name": "MHExtensions",
-    "website": "https://github.com/marbou92/MHExtensions"
+    "website": "https://github.com/marbou92/MHExtensions",
+    "signingKeyFingerprint": "B6:E6:21:B4:0A:C6:5E:14:8B:4B:12:13:52:3E:30:A4:EB:BA:33:6F:62:E7:24:3C:D2:85:1E:70:0A:91:12:85"
   }
 }
