@@ -55,28 +55,46 @@
     {
       "name": "ManhuaRMTL",
       "pkg": "eu.kanade.tachiyomi.extension.en.manhuarmtl",
-      "apk": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/tachiyomi-eu.kanade.tachiyomi.extension.en.manhuarmtl-v55.apk",
+      "apk": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.manhuarmtl-v1.4.56-release.apk",
       "lang": "en",
-      "code": 55,
-      "version": "1.4.55",
+      "code": 56,
+      "version": "1.4.56",
       "nsfw": true,
       "hasUpdate": true,
       "hasReadme": false,
       "hasChangelog": false,
-      "sources": []
+      "sources": [
+        {
+          "name": "ManhuaRMTL",
+          "lang": "en",
+          "id": 757900891974229726,
+          "baseUrl": "https://manhuarmtl.com"
+        }
+      ],
+      "icon": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/manhuarmtl/res/mipmap-xhdpi/ic_launcher.png",
+      "jar": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.manhuarmtl-v1.4.56.jar"
     },
     {
       "name": "Comix",
       "pkg": "eu.kanade.tachiyomi.extension.all.comixto",
-      "apk": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/tachiyomi-eu.kanade.tachiyomi.extension.all.comixto-v21.apk",
+      "apk": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.21-release.apk",
       "lang": "all",
       "code": 21,
       "version": "1.4.21",
-      "nsfw": false,
+      "nsfw": true,
       "hasUpdate": true,
       "hasReadme": false,
       "hasChangelog": false,
-      "sources": []
+      "sources": [
+        {
+          "name": "Comix",
+          "lang": "all",
+          "id": 5988840660094806119,
+          "baseUrl": "https://comix.to"
+        }
+      ],
+      "icon": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/comixto/res/mipmap-xhdpi/ic_launcher.png",
+      "jar": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.21.jar"
     }
   ]
 }
