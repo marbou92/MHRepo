@@ -11,13 +11,13 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.all.comixto",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.21-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.22-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/comixto/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.21.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.22.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "21",
-        "versionName": "1.4.21",
+        "versionCode": "22",
+        "versionName": "1.4.22",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -25,6 +25,94 @@
             "name": "Comix",
             "language": "all",
             "homeUrl": "https://comix.to",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "ManhuaRMTL",
+        "packageName": "eu.kanade.tachiyomi.extension.all.manhuarmtl",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.4.64-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/manhuarmtl/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.4.64.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "64",
+        "versionName": "1.4.64",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "8171970567501756585",
+            "name": "ManhuaRMTL",
+            "language": "all",
+            "homeUrl": "https://manhuarmtl.com",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "Atsumaru",
+        "packageName": "eu.kanade.tachiyomi.extension.en.atsumaru",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.atsumaru-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/atsumaru/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.atsumaru-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "6354986011843597399",
+            "name": "Atsumaru",
+            "language": "en",
+            "homeUrl": "https://atsu.moe",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "Kagane",
+        "packageName": "eu.kanade.tachiyomi.extension.en.kagane",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.kagane-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/kagane/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.kagane-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "4024736764982024684",
+            "name": "Kagane",
+            "language": "en",
+            "homeUrl": "https://kagane.to",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "MKissa",
+        "packageName": "eu.kanade.tachiyomi.extension.en.mkissa",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mkissa-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mkissa/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mkissa-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "4441692323870260139",
+            "name": "MKissa",
+            "language": "en",
+            "homeUrl": "https://mkissa.to",
             "mirrorUrls": []
           }
         ]
