@@ -96,6 +96,28 @@
         ]
       },
       {
+        "name": "MangaBall",
+        "packageName": "eu.kanade.tachiyomi.extension.en.mangaball",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangaball-v1.6.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mangaball/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangaball-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "4778354629668307586",
+            "name": "MangaBall",
+            "language": "en",
+            "homeUrl": "https://mangaball.net",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
         "name": "MKissa",
         "packageName": "eu.kanade.tachiyomi.extension.en.mkissa",
         "resources": {
