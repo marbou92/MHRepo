@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/marbou92/MHRepo/main/repo.json
 | Extension | Version | Language | Content | Site |
 |-----------|---------|----------|---------|------|
 | Comix | v1.4.44 | All | Mixed | [comix.to](https://comix.to) |
-| ManhuaRMTL | v1.6.85 | All | NSFW | [manhuarmtl.com](https://manhuarmtl.com) |
+| ManhuaRMTL | v1.6.85 | All | Mixed | [manhuarmtl.com](https://manhuarmtl.com) |
 | Atsumaru | v1.4.28 | English | Mixed | [atsu.moe](https://atsu.moe) |
 | Kagane | v1.6.45 | English | Mixed | [kagane.to](https://kagane.to) |
 | MangaBall | v1.6.1 | English | Mixed | [mangaball.net](https://mangaball.net) |
