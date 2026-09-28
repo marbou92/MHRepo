@@ -1,6 +1,6 @@
 # MHRepo
 
-Mihon extension repository hosting signed, self-published builds from [MHExtensions](https://github.com/marbou92/MHExtensions) — six sources for sites that mainstream catalogs dropped or never covered, all with built-in Cloudflare handling.
+Mihon extension repository hosting signed, self-published builds from [MHExtensions](https://github.com/marbou92/MHExtensions) — nine sources for sites that mainstream catalogs dropped or never covered, with built-in Cloudflare handling wherever the site needs it.
 
 ## Add to Mihon
 
@@ -14,33 +14,39 @@ https://raw.githubusercontent.com/marbou92/MHRepo/main/repo.json
 
 | Extension | Version | Language | Content | Site |
 |-----------|---------|----------|---------|------|
-| Comix | v1.4.44 | All | Mixed | [comix.to](https://comix.to) |
-| ManhuaRMTL | v1.6.85 | All | Mixed | [manhuarmtl.com](https://manhuarmtl.com) |
 | Atsumaru | v1.4.28 | English | Mixed | [atsu.moe](https://atsu.moe) |
-| Kagane | v1.6.45 | English | Mixed | [kagane.to](https://kagane.to) |
-| MangaBall | v1.6.1 | English | Mixed | [mangaball.net](https://mangaball.net) |
-| MKissa | v1.6.19 | English | Mixed | [mkissa.to](https://mkissa.to) |
+| Comix | v1.4.44 | All | Mixed | [comix.to](https://comix.to) |
+| Kagane | v1.6.49 | English | Mixed | [kagane.to](https://kagane.to) |
+| MangaBall | v1.6.5 | All | Mixed | [mangaball.com](https://mangaball.com) |
+| ManhuaRMTL | v1.6.89 | All | Mixed | [manhuarmtl.com](https://manhuarmtl.com) |
+| MKissa | v1.6.23 | English | Mixed | [mkissa.to](https://mkissa.to) |
+| Swarm | v1.4.1 | All | Mixed | [swarm.ws](https://swarm.ws) |
+| WeebCentral | v1.4.1 | English | Mixed | [weebcentral.com](https://weebcentral.com) |
+| XComic | v1.4.1 | All | Mixed | [xcomic.me](https://xcomic.me) |
 
 > The table above reflects the latest publish. The always-current, machine-readable list is [`index.json`](index.json) — it is regenerated automatically by CI on every publish, so it may briefly be one release ahead of this file.
 
 ### Extension notes
 
+- **Atsumaru** — atsu.moe via its open JSON API (Typesense-powered search; no Cloudflare gate).
 - **Comix** — multilingual (`all`) source for comix.to: signed API requests, image decryption and descrambling, per-source preferences.
-- **ManhuaRMTL** — machine-translated manhua/manhwa in 12 languages, selectable per chapter.
-- **Atsumaru** — atsu.moe via its open JSON API (Typesense-powered search, no Cloudflare bypass needed).
 - **Kagane** — kagane.to (Komga-fork API): silent bearer-token refresh, images served from an open CDN.
-- **MangaBall** — mangaball.net; uses the exact same Cloudflare bypass method as Comix.
-- **MKissa** — mkissa.to (GraphQL persisted queries); chapter pages are gated behind a Turnstile captcha that the in-app solver clears automatically — no manual tap required.
+- **MangaBall** — rebuilt for the new mangaball.com (the old .net domain is gone): talks straight to the site's JSON API — no CSRF tokens — with advanced search filters (status, demographic, language, year, genres), a NSFW toggle and rich descriptions. The source id is independent of the domain, so the .net → .com migration preserved every library entry.
+- **ManhuaRMTL** — machine-translated manhua/manhwa in 12 languages, selectable per chapter, with an on-device OCR text overlay that re-renders instantly when its settings change.
+- **MKissa** — mkissa.to (GraphQL persisted queries); chapter pages are gated behind a Turnstile captcha that the in-app solver clears automatically, replaying each request with a freshly signed payload.
+- **Swarm** — swarm.ws: chapter language (including English, Arabic and French) picked in settings, official-translation preference, Comix-style options; the encrypted page API is decrypted inside the extension.
+- **WeebCentral** — weebcentral.com with full advanced search (sort, order, status, type, adult, official, include/exclude genres), a NSFW toggle, tag chips and blocked-genre filtering.
+- **XComic** — xcomic.me and its three same-backend mirrors (xcomic.net, comik.to, yona.to): pick a mirror or add your own in the extension settings; chapters are grouped per scanlation team with English, Arabic and French translations.
 
-## Cloudflare-protected sources
+## Cloudflare handling
 
-All six sources sit behind Cloudflare. The shared solver bundled in the extensions:
+Five sources (Comix, ManhuaRMTL, Kagane, MangaBall, MKissa) sit behind active Cloudflare protection. The shared solver bundled in the extensions:
 
 - **Detects real challenges strictly** (`cf-mitigated` header or challenge-page body markers), so ordinary JSON API 403s never purge a still-valid `cf_clearance`;
 - **Runs the WebView attached to a real window** (parked invisibly behind the app's own UI) so Cloudflare Turnstile renders and auto-solves — a never-attached WebView reports `visibilityState=hidden` and silently can never solve;
-- **Keeps clearance for the long term** — measured TTL is 365 days on kagane.to and manhuarmtl.com, so the "checking your browser" step should be a one-time event per site.
+- **Self-heals before expiry** — the solver remembers when each site's clearance was last minted. When a request arrives while the clearance is more than a few hours old, it silently re-verifies it in the background (the site root loads in the attached WebView; if a challenge appears it is solved exactly as usual, and if the page loads clean the clearance was still valid). Returning after hours away costs a 5–15 second invisible pause on the first load instead of a manual WebView trip — and most of the time nothing happens at all.
 
-If a source ever shows a challenge prompt, solving it once is enough; there is no hourly re-check.
+WeebCentral and XComic are also fronted by Cloudflare but currently serve regular clients without a challenge; the solver ships in those extensions as a fallback. Atsumaru and Swarm use open APIs with no Cloudflare gate.
 
 ## How it works
 
@@ -83,7 +89,7 @@ Mihon fetches `repo.json`, reads `meta.signingKeyFingerprint` to verify APK sign
 
 ## Compatibility
 
-Extensions are built against extension library **1.4** (Comix, Atsumaru) and **1.6** (ManhuaRMTL, Kagane, MangaBall, MKissa). Any current Mihon / Tachiyomi-fork release supports both — if an extension shows as "incompatible", update your app first.
+Extensions are built against extension library **1.4** (Atsumaru, Comix, Swarm, WeebCentral, XComic) and **1.6** (Kagane, MangaBall, ManhuaRMTL, MKissa). Any current Mihon / Tachiyomi-fork release supports both — if an extension shows as "incompatible", update your app first.
 
 ## Signing
 
