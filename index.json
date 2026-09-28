@@ -33,20 +33,20 @@
         "name": "MangaBall",
         "packageName": "eu.kanade.tachiyomi.extension.all.mangaball",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangaball-v1.6.4-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangaball-v1.6.5-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/mangaball/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangaball-v1.6.4.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangaball-v1.6.5.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "4",
-        "versionName": "1.6.4",
+        "versionCode": "5",
+        "versionName": "1.6.5",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
             "id": "1971134785125719418",
             "name": "MangaBall",
             "language": "all",
-            "homeUrl": "https://mangaball.net",
+            "homeUrl": "https://mangaball.com",
             "mirrorUrls": []
           }
         ]
@@ -55,13 +55,13 @@
         "name": "ManhuaRMTL",
         "packageName": "eu.kanade.tachiyomi.extension.all.manhuarmtl",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.6.88-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.6.89-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/manhuarmtl/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.6.88.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.6.89.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "88",
-        "versionName": "1.6.88",
+        "versionCode": "89",
+        "versionName": "1.6.89",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
@@ -69,6 +69,50 @@
             "name": "ManhuaRMTL",
             "language": "all",
             "homeUrl": "https://manhuarmtl.com",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "Swarm",
+        "packageName": "eu.kanade.tachiyomi.extension.all.swarm",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.swarm-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/swarm/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.swarm-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "289614326893941709",
+            "name": "Swarm",
+            "language": "all",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "XComic",
+        "packageName": "eu.kanade.tachiyomi.extension.all.xcomic",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.xcomic-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/xcomic/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.xcomic-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "7503768123990313103",
+            "name": "XComic",
+            "language": "all",
+            "homeUrl": "https://xcomic.me",
             "mirrorUrls": []
           }
         ]
@@ -99,13 +143,13 @@
         "name": "Kagane",
         "packageName": "eu.kanade.tachiyomi.extension.en.kagane",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.kagane-v1.6.48-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.kagane-v1.6.49-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/kagane/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.kagane-v1.6.48.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.kagane-v1.6.49.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "48",
-        "versionName": "1.6.48",
+        "versionCode": "49",
+        "versionName": "1.6.49",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -121,13 +165,13 @@
         "name": "MKissa",
         "packageName": "eu.kanade.tachiyomi.extension.en.mkissa",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mkissa-v1.6.22-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mkissa-v1.6.23-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mkissa/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mkissa-v1.6.22.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mkissa-v1.6.23.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "22",
-        "versionName": "1.6.22",
+        "versionCode": "23",
+        "versionName": "1.6.23",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -135,6 +179,28 @@
             "name": "MKissa",
             "language": "en",
             "homeUrl": "https://mkissa.to",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "WeebCentral",
+        "packageName": "eu.kanade.tachiyomi.extension.en.weebcentral",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.weebcentral-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/weebcentral/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.weebcentral-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "2276222502310437069",
+            "name": "WeebCentral",
+            "language": "en",
+            "homeUrl": "https://weebcentral.com",
             "mirrorUrls": []
           }
         ]
