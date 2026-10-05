@@ -870,13 +870,13 @@
         "name": "XComic",
         "packageName": "eu.kanade.tachiyomi.extension.all.xcomic",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.xcomic-v1.4.5-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.xcomic-v1.4.6-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/xcomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.xcomic-v1.4.5.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.xcomic-v1.4.6.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "5",
-        "versionName": "1.4.5",
+        "versionCode": "6",
+        "versionName": "1.4.6",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
