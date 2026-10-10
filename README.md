@@ -1,111 +1,93 @@
 # MHRepo
 
-Mihon extension repository hosting signed, self-published builds from [MHExtensions](https://github.com/marbou92/MHExtensions) — nine sources for sites that mainstream catalogs dropped or never covered, with built-in Cloudflare handling wherever the site needs it.
+### Please give the repo a :star:
 
-## Add to Mihon
+| Need Help? | Website |
+|------------|---------|
+| [![Issues](https://img.shields.io/badge/report-an%20issue-2da44e)](https://github.com/marbou92/MHExtensions/issues) | [![Website](https://img.shields.io/badge/website-MHExtensions-646cff)](https://marbou92.github.io/MHExtensions/) |
 
-```
-https://raw.githubusercontent.com/marbou92/MHRepo/main/repo.json
-```
+MHRepo is the distribution point for **MHExtensions** — the extension source code lives in
+[marbou92/MHExtensions](https://github.com/marbou92/MHExtensions), and every published build lands
+here as signed APKs plus the protobuf index that Mihon and its forks consume.
 
-**Settings → Browse → Extension repos → Add** — then refresh the Extensions screen and install from the "MarBou" section.
+## Usage
 
-## Available extensions
+**If you are new to repositories/extensions, please read the [Getting Started guide](https://marbou92.github.io/MHExtensions/guide/#adding-the-repository) first.**
 
-| Extension | Version | Language | Content | Site |
-|-----------|---------|----------|---------|------|
-| Atsumaru | v1.4.28 | English | Mixed | [atsu.moe](https://atsu.moe) |
-| Comix | v1.4.44 | All | Mixed | [comix.to](https://comix.to) |
-| Kagane | v1.6.49 | English | Mixed | [kagane.to](https://kagane.to) |
-| MangaBall | v1.6.5 | All | Mixed | [mangaball.com](https://mangaball.com) |
-| ManhuaRMTL | v1.6.89 | All | Mixed | [manhuarmtl.com](https://manhuarmtl.com) |
-| MKissa | v1.6.23 | English | Mixed | [mkissa.to](https://mkissa.to) |
-| Swarm | v1.4.1 | All | Mixed | [swarm.ws](https://swarm.ws) |
-| WeebCentral | v1.4.1 | English | Mixed | [weebcentral.com](https://weebcentral.com) |
-| XComic | v1.4.1 | All | Mixed | [xcomic.me](https://xcomic.me) |
+* You can add the repo by visiting the [MHExtensions Website](https://marbou92.github.io/MHExtensions/add-repo/)
+* Otherwise, copy & paste the following URL: https://raw.githubusercontent.com/marbou92/MHRepo/main/repo.json
 
-> The table above reflects the latest publish. The always-current, machine-readable list is [`index.json`](index.json) — it is regenerated automatically by CI on every publish, so it may briefly be one release ahead of this file.
+## What lives in this repo
 
-### Extension notes
+| File / folder | Purpose |
+|---------------|---------|
+| `repo.json` | Entry point the app fetches — points at the protobuf index (v2) and publishes the signing-key fingerprint |
+| `index.pb` | Protobuf index of every extension: pkg name, version, APK filename, source languages |
+| `index.min.json` | Legacy/static marker kept for older tooling |
+| `apk/` | Signed release APKs (`tachiyomi-<pkg>-v<version>-release.apk`), one per extension version |
 
-- **Atsumaru** — atsu.moe via its open JSON API (Typesense-powered search; no Cloudflare gate).
-- **Comix** — multilingual (`all`) source for comix.to: signed API requests, image decryption and descrambling, per-source preferences.
-- **Kagane** — kagane.to (Komga-fork API): silent bearer-token refresh, images served from an open CDN.
-- **MangaBall** — rebuilt for the new mangaball.com (the old .net domain is gone): talks straight to the site's JSON API — no CSRF tokens — with advanced search filters (status, demographic, language, year, genres), a NSFW toggle and rich descriptions. The source id is independent of the domain, so the .net → .com migration preserved every library entry.
-- **ManhuaRMTL** — machine-translated manhua/manhwa in 12 languages, selectable per chapter, with an on-device OCR text overlay that re-renders instantly when its settings change.
-- **MKissa** — mkissa.to (GraphQL persisted queries); chapter pages are gated behind a Turnstile captcha that the in-app solver clears automatically, replaying each request with a freshly signed payload.
-- **Swarm** — swarm.ws: chapter language (including English, Arabic and French) picked in settings, official-translation preference, Comix-style options; the encrypted page API is decrypted inside the extension.
-- **WeebCentral** — weebcentral.com with full advanced search (sort, order, status, type, adult, official, include/exclude genres), a NSFW toggle, tag chips and blocked-genre filtering.
-- **XComic** — xcomic.me and its three same-backend mirrors (xcomic.net, comik.to, yona.to): pick a mirror or add your own in the extension settings; chapters are grouped per scanlation team with English, Arabic and French translations.
+The app verifies every APK against the fingerprint published in `repo.json` before installing —
+that's why the first install from a new repo asks you to trust the key once.
 
-## Cloudflare handling
+## Extensions
 
-Five sources (Comix, ManhuaRMTL, Kagane, MangaBall, MKissa) sit behind active Cloudflare protection. The shared solver bundled in the extensions:
+| Extension | Language | Site | Status |
+|-----------|----------|------|--------|
+| **Comix** | All | [comix.to](https://comix.to) | Working (WebView signing bridge + CF bypass) |
+| **ManhuaRMTL** | All | [manhuarmtl.com](https://manhuarmtl.com) | Working (OCR overlay in 12 languages) |
+| **MangaFire** | All ×7 | [mangafire.to](https://mangafire.to) | Working (vrf-signed API via offline WebView) |
+| **MangaGo** | English | [mangago.me](https://www.mangago.me) | Working (reader runs in WebView) |
+| **MangaTaro** | English | [mangataro.org](https://mangataro.org) | Working (WordPress JSON API) |
+| **Toonz** | English | [toonz.to](https://toonz.to) | Working (Next.js + JSON endpoints) |
+| **MangaDot** | All | [mangadot.net](https://mangadot.net) | Working (one source per language) |
+| **MangaBall** | All | [mangaball.com](https://mangaball.com) | Working |
+| **Swarm** | All | [swarm.ws](https://swarm.ws) | Working |
+| **XComic** | All | [xcomic.me](https://xcomic.me) | Working (all sources + badge naming) |
+| **Kagane** | English | [kagane.to](https://kagane.to) | Working (integrity-token flow + CF bypass) |
+| **Atsumaru** | English | [atsu.moe](https://atsu.moe) | Working (custom JSON API) |
+| **MKissa** | English | [mkissa.to](https://mkissa.to) | Browse/search/details only (see below) |
+| **WeebCentral** | English | [weebcentral.com](https://weebcentral.com) | Working |
 
-- **Detects real challenges strictly** (`cf-mitigated` header or challenge-page body markers), so ordinary JSON API 403s never purge a still-valid `cf_clearance`;
-- **Runs the WebView attached to a real window** (parked invisibly behind the app's own UI) so Cloudflare Turnstile renders and auto-solves — a never-attached WebView reports `visibilityState=hidden` and silently can never solve;
-- **Self-heals before expiry** — the solver remembers when each site's clearance was last minted. When a request arrives while the clearance is more than a few hours old, it silently re-verifies it in the background (the site root loads in the attached WebView; if a challenge appears it is solved exactly as usual, and if the page loads clean the clearance was still valid). Returning after hours away costs a 5–15 second invisible pause on the first load instead of a manual WebView trip — and most of the time nothing happens at all.
+> **MKissa note:** MKissa gates chapter images behind a rotating anti-bot token generated by their
+> own JavaScript (explicitly hardened against scraping). Browsing, search, details and the chapter
+> list work; opening a chapter asks you to read on the site for now.
 
-WeebCentral and XComic are also fronted by Cloudflare but currently serve regular clients without a challenge; the solver ships in those extensions as a fallback. Atsumaru and Swarm use open APIs with no Cloudflare gate.
+## Updates
 
-## How it works
+When an extension is bumped in MHExtensions and the **Release & Publish** workflow runs, the new
+APK and index entry are pushed here automatically — the app then offers the update like any normal
+app update. You never install APKs by hand unless you want to.
 
-This repo is automatically updated by the [MHExtensions](https://github.com/marbou92/MHExtensions) CI:
+## Requests
 
-1. Source code changes are pushed to MHExtensions
-2. The **Release & Publish** workflow builds signed release APKs
-3. The publish script (`publish-repo.py`) pushes APKs, JARs, and the protobuf index here
-4. The jsDelivr CDN cache is purged so updates appear immediately
+To request a new source or bug fix, [create an issue](https://github.com/marbou92/MHExtensions/issues/new/choose)
+on the source repo (MHExtensions) — this repository is generated and not a place for feature requests.
 
-## Repository structure
+## Credits
 
-```
-MHRepo/
-├── repo.json          # Repo descriptor (points Mihon to index.pb)
-├── index.pb           # Protobuf v2 index (gzip-compressed binary — what Mihon reads)
-├── index.json         # Protobuf v2 index in JSON format (human-readable)
-├── index.min.json     # Legacy v1 marker file (for old Tachiyomi apps)
-├── index.html         # Web listing page
-├── apk/               # All signed release APKs
-├── jar/               # All signed extension JARs
-├── icon/              # Per-extension icons
-└── README.md          # This file
-```
-
-### `repo.json`
-
-```json
-{
-  "index_v2": "https://raw.githubusercontent.com/marbou92/MHRepo/main/index.pb",
-  "meta": {
-    "name": "MarBou",
-    "website": "https://github.com/marbou92/MHExtensions",
-    "signingKeyFingerprint": "<SHA-256 fingerprint>"
-  }
-}
-```
-
-Mihon fetches `repo.json`, reads `meta.signingKeyFingerprint` to verify APK signatures, then fetches `index_v2` (the protobuf binary at `index.pb`) to get the extension list.
-
-## Compatibility
-
-Extensions are built against extension library **1.4** (Atsumaru, Comix, Swarm, WeebCentral, XComic) and **1.6** (Kagane, MangaBall, ManhuaRMTL, MKissa). Any current Mihon / Tachiyomi-fork release supports both — if an extension shows as "incompatible", update your app first.
-
-## Signing
-
-All APKs are signed with a personal keystore. The SHA-256 fingerprint of the signing certificate is included in `repo.json` → `meta.signingKeyFingerprint`. Mihon uses this to verify that APKs come from a trusted source.
-
-## CDN
-
-- **APKs/JARs** → jsDelivr CDN (`cdn.jsdelivr.net`) — fast global delivery
-- **Index files** → `raw.githubusercontent.com` (5-minute cache for fast updates) + jsDelivr purge on publish
-
-## Related
-
-- **Source code:** [marbou92/MHExtensions](https://github.com/marbou92/MHExtensions)
-- **Build infrastructure:** [Keiyoushi/extensions-source](https://github.com/keiyoushi/extensions-source)
-- **App:** [Mihon](https://github.com/mihonapp/mihon)
+MHExtensions is built on the extension infrastructure of
+[keiyoushi/extensions-source](https://github.com/keiyoushi/extensions-source), and the README and
+website style follow [keiyoushi.github.io](https://keiyoushi.github.io/).
 
 ## License
 
-See [LICENSE](LICENSE).
+    Copyright 2025 MHExtensions contributors
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+## Disclaimer
+
+This project does not have any affiliation with the content providers available.
+
+This project is not affiliated with Mihon/Tachiyomi. Don't ask for help about these extensions at the
+official support means of Mihon/Tachiyomi. All credits to the codebase goes to the original contributors.
