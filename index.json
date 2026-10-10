@@ -11,13 +11,13 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.all.comixto",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.46-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.47-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/comixto/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.46.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.47.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "46",
-        "versionName": "1.4.46",
+        "versionCode": "47",
+        "versionName": "1.4.47",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -823,6 +823,70 @@
         ]
       },
       {
+        "name": "MangaFire",
+        "packageName": "eu.kanade.tachiyomi.extension.all.mangafire",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangafire-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/mangafire/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangafire-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "6084907896154116083",
+            "name": "MangaFire",
+            "language": "en",
+            "homeUrl": "https://mangafire.to",
+            "mirrorUrls": []
+          },
+          {
+            "id": "6228021941803932286",
+            "name": "MangaFire",
+            "language": "fr",
+            "homeUrl": "https://mangafire.to",
+            "mirrorUrls": []
+          },
+          {
+            "id": "8098539940032331958",
+            "name": "MangaFire",
+            "language": "es",
+            "homeUrl": "https://mangafire.to",
+            "mirrorUrls": []
+          },
+          {
+            "id": "6290895191263374462",
+            "name": "MangaFire",
+            "language": "es-la",
+            "homeUrl": "https://mangafire.to",
+            "mirrorUrls": []
+          },
+          {
+            "id": "758400875161895515",
+            "name": "MangaFire",
+            "language": "pt",
+            "homeUrl": "https://mangafire.to",
+            "mirrorUrls": []
+          },
+          {
+            "id": "7966476554208423942",
+            "name": "MangaFire",
+            "language": "pt-br",
+            "homeUrl": "https://mangafire.to",
+            "mirrorUrls": []
+          },
+          {
+            "id": "524110931382140732",
+            "name": "MangaFire",
+            "language": "ja",
+            "homeUrl": "https://mangafire.to",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
         "name": "ManhuaRMTL",
         "packageName": "eu.kanade.tachiyomi.extension.all.manhuarmtl",
         "resources": {
@@ -933,6 +997,50 @@
         ]
       },
       {
+        "name": "MangaGo",
+        "packageName": "eu.kanade.tachiyomi.extension.en.mangago",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangago-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mangago/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangago-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "2470059397662084186",
+            "name": "MangaGo",
+            "language": "en",
+            "homeUrl": "https://www.mangago.me",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "MangaTaro",
+        "packageName": "eu.kanade.tachiyomi.extension.en.mangataro",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangataro-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mangataro/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangataro-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "8358097306709528603",
+            "name": "MangaTaro",
+            "language": "en",
+            "homeUrl": "https://mangataro.org",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
         "name": "MKissa",
         "packageName": "eu.kanade.tachiyomi.extension.en.mkissa",
         "resources": {
@@ -950,6 +1058,28 @@
             "name": "MKissa",
             "language": "en",
             "homeUrl": "https://mkissa.to",
+            "mirrorUrls": []
+          }
+        ]
+      },
+      {
+        "name": "Toonz",
+        "packageName": "eu.kanade.tachiyomi.extension.en.toonz",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.toonz-v1.4.1-release.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/toonz/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.toonz-v1.4.1.jar"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "1",
+        "versionName": "1.4.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "225310046014902430",
+            "name": "Toonz",
+            "language": "en",
+            "homeUrl": "https://toonz.to",
             "mirrorUrls": []
           }
         ]
