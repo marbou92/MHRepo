@@ -11,13 +11,13 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.all.comixto",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.48-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.49-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/comixto/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.48.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.49.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "48",
-        "versionName": "1.4.48",
+        "versionCode": "49",
+        "versionName": "1.4.49",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -33,19 +33,166 @@
         "name": "MangaBall",
         "packageName": "eu.kanade.tachiyomi.extension.all.mangaball",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangaball-v1.6.9-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangaball-v1.6.10-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/mangaball/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangaball-v1.6.9.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangaball-v1.6.10.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "9",
-        "versionName": "1.6.9",
+        "versionCode": "10",
+        "versionName": "1.6.10",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
-            "id": "1971134785125719418",
+            "id": "4778354629668307586",
             "name": "MangaBall",
-            "language": "all",
+            "language": "en",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "7216119557582772806",
+            "name": "MangaBall",
+            "language": "es",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "8272127975979766453",
+            "name": "MangaBall",
+            "language": "es-419",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "9047479630272065035",
+            "name": "MangaBall",
+            "language": "pt-BR",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "2890754773479977177",
+            "name": "MangaBall",
+            "language": "fr",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "3047672457902572620",
+            "name": "MangaBall",
+            "language": "de",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "3756127549733576621",
+            "name": "MangaBall",
+            "language": "it",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "1576360898828695203",
+            "name": "MangaBall",
+            "language": "ru",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "222802776973405971",
+            "name": "MangaBall",
+            "language": "tr",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "1639769448085328796",
+            "name": "MangaBall",
+            "language": "ar",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "5161012395177441382",
+            "name": "MangaBall",
+            "language": "id",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "4387093693108560178",
+            "name": "MangaBall",
+            "language": "th",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "6844051724040869013",
+            "name": "MangaBall",
+            "language": "vi",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "8073026486571375194",
+            "name": "MangaBall",
+            "language": "hi",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "7578651823909465040",
+            "name": "MangaBall",
+            "language": "tl",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "2106476967728728092",
+            "name": "MangaBall",
+            "language": "ja",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "6358887212096359417",
+            "name": "MangaBall",
+            "language": "ko",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "5442378990223605095",
+            "name": "MangaBall",
+            "language": "zh",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "1803067083636190652",
+            "name": "MangaBall",
+            "language": "zh-Hant",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "4724203604206181805",
+            "name": "MangaBall",
+            "language": "pl",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "1377208064890437005",
+            "name": "MangaBall",
+            "language": "nl",
+            "homeUrl": "https://mangaball.com",
+            "mirrorUrls": []
+          },
+          {
+            "id": "1304775841055711937",
+            "name": "MangaBall",
+            "language": "uk",
             "homeUrl": "https://mangaball.com",
             "mirrorUrls": []
           }
@@ -826,13 +973,13 @@
         "name": "MangaFire",
         "packageName": "eu.kanade.tachiyomi.extension.all.mangafire",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangafire-v1.4.2-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangafire-v1.4.3-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/mangafire/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangafire-v1.4.2.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangafire-v1.4.3.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "2",
-        "versionName": "1.4.2",
+        "versionCode": "3",
+        "versionName": "1.4.3",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -912,19 +1059,124 @@
         "name": "Swarm",
         "packageName": "eu.kanade.tachiyomi.extension.all.swarm",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.swarm-v1.4.5-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.swarm-v1.4.6-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/swarm/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.swarm-v1.4.5.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.swarm-v1.4.6.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "5",
-        "versionName": "1.4.5",
+        "versionCode": "6",
+        "versionName": "1.4.6",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
-            "id": "289614326893941709",
+            "id": "7695050792030357361",
             "name": "Swarm",
-            "language": "all",
+            "language": "en",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "6651925182941355310",
+            "name": "Swarm",
+            "language": "fr",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "2236853770149754070",
+            "name": "Swarm",
+            "language": "ar",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "8371905513614203015",
+            "name": "Swarm",
+            "language": "es",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "3580383655929220891",
+            "name": "Swarm",
+            "language": "es-la",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "8585279583517887867",
+            "name": "Swarm",
+            "language": "pt-br",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "2526207649120912532",
+            "name": "Swarm",
+            "language": "id",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "1130156635017499693",
+            "name": "Swarm",
+            "language": "th",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "2686427454710368146",
+            "name": "Swarm",
+            "language": "vi",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "8800126243432184157",
+            "name": "Swarm",
+            "language": "tr",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "4856362822234453672",
+            "name": "Swarm",
+            "language": "ru",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "8393592228176865578",
+            "name": "Swarm",
+            "language": "de",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "5984944713048868598",
+            "name": "Swarm",
+            "language": "it",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "2020934219144657630",
+            "name": "Swarm",
+            "language": "ja",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "3833934207520015622",
+            "name": "Swarm",
+            "language": "ko",
+            "homeUrl": "https://swarm.ws",
+            "mirrorUrls": []
+          },
+          {
+            "id": "4054994833878525767",
+            "name": "Swarm",
+            "language": "zh",
             "homeUrl": "https://swarm.ws",
             "mirrorUrls": []
           }
@@ -1000,13 +1252,13 @@
         "name": "MangaGo",
         "packageName": "eu.kanade.tachiyomi.extension.en.mangago",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangago-v1.4.3-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangago-v1.4.4-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mangago/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangago-v1.4.3.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangago-v1.4.4.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "3",
-        "versionName": "1.4.3",
+        "versionCode": "4",
+        "versionName": "1.4.4",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1022,13 +1274,13 @@
         "name": "MangaTaro",
         "packageName": "eu.kanade.tachiyomi.extension.en.mangataro",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangataro-v1.4.3-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangataro-v1.4.4-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mangataro/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangataro-v1.4.3.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangataro-v1.4.4.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "3",
-        "versionName": "1.4.3",
+        "versionCode": "4",
+        "versionName": "1.4.4",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1066,13 +1318,13 @@
         "name": "Toonz",
         "packageName": "eu.kanade.tachiyomi.extension.en.toonz",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.toonz-v1.4.3-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.toonz-v1.4.4-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/toonz/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.toonz-v1.4.3.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.toonz-v1.4.4.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "3",
-        "versionName": "1.4.3",
+        "versionCode": "4",
+        "versionName": "1.4.4",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
