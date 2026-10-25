@@ -1180,13 +1180,13 @@
         "name": "Kawaiimanga",
         "packageName": "eu.kanade.tachiyomi.extension.ar.kawaiimanga",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.kawaiimanga-v1.6.1-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.kawaiimanga-v1.6.2-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/kawaiimanga/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.kawaiimanga-v1.6.1.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.kawaiimanga-v1.6.2.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1",
-        "versionName": "1.6.1",
+        "versionCode": "2",
+        "versionName": "1.6.2",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1202,13 +1202,13 @@
         "name": "MangaDar",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangadar",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangadar-v1.6.2-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangadar-v1.6.3-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangadar/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangadar-v1.6.2.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangadar-v1.6.3.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "2",
-        "versionName": "1.6.2",
+        "versionCode": "3",
+        "versionName": "1.6.3",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1246,13 +1246,13 @@
         "name": "MangaTime",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangatime",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangatime-v1.6.2-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangatime-v1.6.3-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangatime/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangatime-v1.6.2.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangatime-v1.6.3.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "2",
-        "versionName": "1.6.2",
+        "versionCode": "3",
+        "versionName": "1.6.3",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
