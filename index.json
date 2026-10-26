@@ -1362,20 +1362,20 @@
         "name": "ProComic",
         "packageName": "eu.kanade.tachiyomi.extension.ar.procomic",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.16-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.18-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/procomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.16.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.18.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "16",
-        "versionName": "1.6.16",
+        "versionCode": "18",
+        "versionName": "1.6.18",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
             "id": "6818345659309721544",
             "name": "ProComic",
             "language": "ar",
-            "homeUrl": "https://procomic.pro",
+            "homeUrl": "https://procomic.net",
             "mirrorUrls": []
           }
         ]
