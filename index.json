@@ -1362,13 +1362,13 @@
         "name": "ProComic",
         "packageName": "eu.kanade.tachiyomi.extension.ar.procomic",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.24-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.25-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/procomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.24.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.25.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "24",
-        "versionName": "1.6.24",
+        "versionCode": "25",
+        "versionName": "1.6.25",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
