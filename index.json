@@ -1016,13 +1016,13 @@
         "name": "ManhuaRMTL",
         "packageName": "eu.kanade.tachiyomi.extension.all.manhuarmtl",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.6.114-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.6.115-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/manhuarmtl/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.6.114.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.6.115.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "114",
-        "versionName": "1.6.114",
+        "versionCode": "115",
+        "versionName": "1.6.115",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
@@ -1268,13 +1268,13 @@
         "name": "Mangalek",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangalek",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangalek-v1.6.57-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangalek-v1.6.58-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangalek/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangalek-v1.6.57.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangalek-v1.6.58.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "57",
-        "versionName": "1.6.57",
+        "versionCode": "58",
+        "versionName": "1.6.58",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -1362,13 +1362,13 @@
         "name": "ProComic",
         "packageName": "eu.kanade.tachiyomi.extension.ar.procomic",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.35-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.36-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/procomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.35.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.36.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "35",
-        "versionName": "1.6.35",
+        "versionCode": "36",
+        "versionName": "1.6.36",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
