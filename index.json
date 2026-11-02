@@ -11,13 +11,13 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.all.comixto",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.50-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.51-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/comixto/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.50.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.51.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040050",
-        "versionName": "1.4.50",
+        "versionCode": "1040051",
+        "versionName": "1.4.51",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -33,13 +33,13 @@
         "name": "MangaBall",
         "packageName": "eu.kanade.tachiyomi.extension.all.mangaball",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangaball-v1.6.11-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangaball-v1.6.12-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/mangaball/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangaball-v1.6.11.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangaball-v1.6.12.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060011",
-        "versionName": "1.6.11",
+        "versionCode": "1060012",
+        "versionName": "1.6.12",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -181,13 +181,13 @@
         "name": "MangaDot",
         "packageName": "eu.kanade.tachiyomi.extension.all.mangadot",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangadot-v1.6.3-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangadot-v1.6.4-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/mangadot/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangadot-v1.6.3.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangadot-v1.6.4.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060003",
-        "versionName": "1.6.3",
+        "versionCode": "1060004",
+        "versionName": "1.6.4",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -952,13 +952,13 @@
         "name": "MangaFire",
         "packageName": "eu.kanade.tachiyomi.extension.all.mangafire",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangafire-v1.4.5-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.mangafire-v1.4.6-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/mangafire/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangafire-v1.4.5.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.mangafire-v1.4.6.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040005",
-        "versionName": "1.4.5",
+        "versionCode": "1040006",
+        "versionName": "1.4.6",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1016,13 +1016,13 @@
         "name": "ManhuaRMTL",
         "packageName": "eu.kanade.tachiyomi.extension.all.manhuarmtl",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.6.59-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.manhuarmtl-v1.6.116-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/manhuarmtl/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.6.59.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.manhuarmtl-v1.6.116.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "115",
-        "versionName": "1.6.59",
+        "versionCode": "116",
+        "versionName": "1.6.116",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
@@ -1038,13 +1038,13 @@
         "name": "Swarm",
         "packageName": "eu.kanade.tachiyomi.extension.all.swarm",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.swarm-v1.4.7-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.swarm-v1.4.8-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/swarm/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.swarm-v1.4.7.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.swarm-v1.4.8.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040007",
-        "versionName": "1.4.7",
+        "versionCode": "1040008",
+        "versionName": "1.4.8",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1158,13 +1158,13 @@
         "name": "XComic",
         "packageName": "eu.kanade.tachiyomi.extension.all.xcomic",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.xcomic-v1.4.6-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.xcomic-v1.4.7-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/xcomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.xcomic-v1.4.6.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.xcomic-v1.4.7.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040006",
-        "versionName": "1.4.6",
+        "versionCode": "1040007",
+        "versionName": "1.4.7",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1180,13 +1180,13 @@
         "name": "Azora",
         "packageName": "eu.kanade.tachiyomi.extension.ar.azora",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.azora-v1.6.2-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.azora-v1.6.31-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/azora/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.azora-v1.6.2.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.azora-v1.6.31.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "30",
-        "versionName": "1.6.2",
+        "versionCode": "31",
+        "versionName": "1.6.31",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -1202,13 +1202,13 @@
         "name": "Hijala",
         "packageName": "eu.kanade.tachiyomi.extension.ar.hijala",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.hijala-v1.6.2-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.hijala-v1.6.3-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/hijala/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.hijala-v1.6.2.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.hijala-v1.6.3.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "2",
-        "versionName": "1.6.2",
+        "versionCode": "3",
+        "versionName": "1.6.3",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -1224,13 +1224,13 @@
         "name": "Kawaiimanga",
         "packageName": "eu.kanade.tachiyomi.extension.ar.kawaiimanga",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.kawaiimanga-v1.6.3-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.kawaiimanga-v1.6.4-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/kawaiimanga/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.kawaiimanga-v1.6.3.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.kawaiimanga-v1.6.4.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060003",
-        "versionName": "1.6.3",
+        "versionCode": "1060004",
+        "versionName": "1.6.4",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1246,13 +1246,13 @@
         "name": "MangaDar",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangadar",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangadar-v1.6.5-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangadar-v1.6.6-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangadar/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangadar-v1.6.5.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangadar-v1.6.6.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060005",
-        "versionName": "1.6.5",
+        "versionCode": "1060006",
+        "versionName": "1.6.6",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1268,13 +1268,13 @@
         "name": "Mangalek",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangalek",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangalek-v1.6.3-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangalek-v1.6.60-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangalek/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangalek-v1.6.3.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangalek-v1.6.60.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "59",
-        "versionName": "1.6.3",
+        "versionCode": "60",
+        "versionName": "1.6.60",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -1296,13 +1296,13 @@
         "name": "MangaSwat",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangaswat",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangaswat-v1.6.3-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangaswat-v1.6.4-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangaswat/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangaswat-v1.6.3.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangaswat-v1.6.4.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060003",
-        "versionName": "1.6.3",
+        "versionCode": "1060004",
+        "versionName": "1.6.4",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -1318,13 +1318,13 @@
         "name": "MangaTek",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangatek",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangatek-v1.6.9-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangatek-v1.6.10-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangatek/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangatek-v1.6.9.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangatek-v1.6.10.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060009",
-        "versionName": "1.6.9",
+        "versionCode": "1060010",
+        "versionName": "1.6.10",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -1340,13 +1340,13 @@
         "name": "MangaTime",
         "packageName": "eu.kanade.tachiyomi.extension.ar.mangatime",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangatime-v1.6.4-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.mangatime-v1.6.5-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/mangatime/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangatime-v1.6.4.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.mangatime-v1.6.5.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060004",
-        "versionName": "1.6.4",
+        "versionCode": "1060005",
+        "versionName": "1.6.5",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1362,13 +1362,13 @@
         "name": "ProComic",
         "packageName": "eu.kanade.tachiyomi.extension.ar.procomic",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.37-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.38-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/procomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.37.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.38.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060037",
-        "versionName": "1.6.37",
+        "versionCode": "1060038",
+        "versionName": "1.6.38",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1384,13 +1384,13 @@
         "name": "Team X",
         "packageName": "eu.kanade.tachiyomi.extension.ar.teamx",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.teamx-v1.6.2-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.teamx-v1.6.3-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/teamx/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.teamx-v1.6.2.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.teamx-v1.6.3.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060002",
-        "versionName": "1.6.2",
+        "versionCode": "1060003",
+        "versionName": "1.6.3",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -1406,13 +1406,13 @@
         "name": "Atsumaru",
         "packageName": "eu.kanade.tachiyomi.extension.en.atsumaru",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.atsumaru-v1.4.28-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.atsumaru-v1.4.29-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/atsumaru/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.atsumaru-v1.4.28.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.atsumaru-v1.4.29.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040028",
-        "versionName": "1.4.28",
+        "versionCode": "1040029",
+        "versionName": "1.4.29",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1428,13 +1428,13 @@
         "name": "Kagane",
         "packageName": "eu.kanade.tachiyomi.extension.en.kagane",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.kagane-v1.6.51-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.kagane-v1.6.52-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/kagane/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.kagane-v1.6.51.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.kagane-v1.6.52.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060051",
-        "versionName": "1.6.51",
+        "versionCode": "1060052",
+        "versionName": "1.6.52",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1450,13 +1450,13 @@
         "name": "MangaGo",
         "packageName": "eu.kanade.tachiyomi.extension.en.mangago",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangago-v1.4.4-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangago-v1.4.5-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mangago/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangago-v1.4.4.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangago-v1.4.5.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040004",
-        "versionName": "1.4.4",
+        "versionCode": "1040005",
+        "versionName": "1.4.5",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1472,13 +1472,13 @@
         "name": "MangaTaro",
         "packageName": "eu.kanade.tachiyomi.extension.en.mangataro",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangataro-v1.4.7-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mangataro-v1.4.8-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mangataro/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangataro-v1.4.7.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mangataro-v1.4.8.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040007",
-        "versionName": "1.4.7",
+        "versionCode": "1040008",
+        "versionName": "1.4.8",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1494,13 +1494,13 @@
         "name": "MKissa",
         "packageName": "eu.kanade.tachiyomi.extension.en.mkissa",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mkissa-v1.6.24-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.mkissa-v1.6.25-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/mkissa/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mkissa-v1.6.24.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.mkissa-v1.6.25.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060024",
-        "versionName": "1.6.24",
+        "versionCode": "1060025",
+        "versionName": "1.6.25",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1516,13 +1516,13 @@
         "name": "Toonz",
         "packageName": "eu.kanade.tachiyomi.extension.en.toonz",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.toonz-v1.4.4-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.toonz-v1.4.5-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/toonz/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.toonz-v1.4.4.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.toonz-v1.4.5.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040004",
-        "versionName": "1.4.4",
+        "versionCode": "1040005",
+        "versionName": "1.4.5",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1538,13 +1538,13 @@
         "name": "WeebCentral",
         "packageName": "eu.kanade.tachiyomi.extension.en.weebcentral",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.weebcentral-v1.4.2-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-en.weebcentral-v1.4.3-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/en/weebcentral/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.weebcentral-v1.4.2.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-en.weebcentral-v1.4.3.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040002",
-        "versionName": "1.4.2",
+        "versionCode": "1040003",
+        "versionName": "1.4.3",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
