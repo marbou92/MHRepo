@@ -11,13 +11,13 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.all.comixto",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.51-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-all.comixto-v1.4.52-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/all/comixto/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.51.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-all.comixto-v1.4.52.jar"
         },
         "extensionLib": "1.4",
-        "versionCode": "1040051",
-        "versionName": "1.4.51",
+        "versionCode": "1040052",
+        "versionName": "1.4.52",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -1362,13 +1362,13 @@
         "name": "ProComic",
         "packageName": "eu.kanade.tachiyomi.extension.ar.procomic",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.38-release.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/apk/tachiyomi-ar.procomic-v1.6.39-release.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHExtensions@main/src/ar/procomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.38.jar"
+          "jarUrl": "https://cdn.jsdelivr.net/gh/marbou92/MHRepo@main/jar/tachiyomi-ar.procomic-v1.6.39.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "1060038",
-        "versionName": "1.6.38",
+        "versionCode": "1060039",
+        "versionName": "1.6.39",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
